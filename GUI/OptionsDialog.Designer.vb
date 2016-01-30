@@ -491,7 +491,7 @@ Partial Class OptionsDialog
         ColorLinearGradient1.ColorB = System.Drawing.Color.DarkGray
         Me.slider_blue.SliderColorLow = ColorLinearGradient1
         Me.slider_blue.SliderShape = WDLauncher.gTrackBar.eShape.Rectangle
-        Me.slider_blue.SliderSize = New System.Drawing.Size(15, 10)
+        Me.slider_blue.SliderSize = New System.Drawing.Size(8, 15)
         Me.slider_blue.SliderWidthHigh = 1.0!
         Me.slider_blue.SliderWidthLow = 1.0!
         Me.slider_blue.TabIndex = 24
@@ -545,7 +545,7 @@ Partial Class OptionsDialog
         ColorLinearGradient2.ColorB = System.Drawing.Color.DarkGray
         Me.slider_green.SliderColorLow = ColorLinearGradient2
         Me.slider_green.SliderShape = WDLauncher.gTrackBar.eShape.Rectangle
-        Me.slider_green.SliderSize = New System.Drawing.Size(15, 10)
+        Me.slider_green.SliderSize = New System.Drawing.Size(8, 15)
         Me.slider_green.SliderWidthHigh = 1.0!
         Me.slider_green.SliderWidthLow = 1.0!
         Me.slider_green.TabIndex = 23
@@ -599,7 +599,7 @@ Partial Class OptionsDialog
         ColorLinearGradient3.ColorB = System.Drawing.Color.DarkGray
         Me.slider_red.SliderColorLow = ColorLinearGradient3
         Me.slider_red.SliderShape = WDLauncher.gTrackBar.eShape.Rectangle
-        Me.slider_red.SliderSize = New System.Drawing.Size(15, 10)
+        Me.slider_red.SliderSize = New System.Drawing.Size(8, 15)
         Me.slider_red.SliderWidthHigh = 1.0!
         Me.slider_red.SliderWidthLow = 1.0!
         Me.slider_red.TabIndex = 22
