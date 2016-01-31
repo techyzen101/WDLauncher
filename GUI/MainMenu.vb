@@ -1,6 +1,4 @@
-﻿Imports FMOD 'FMOD sound system
-
-Public Class MainMenu
+﻿Public Class MainMenu
     'FMOD declarations
     Dim Fsystem As New FMOD.System(Nothing)
     Dim Fversion As UInteger

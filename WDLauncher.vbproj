@@ -24,7 +24,7 @@
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>WDLauncher.xml</DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,414</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -34,7 +34,7 @@
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>WDLauncher.xml</DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,414</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
     <OptionExplicit>On</OptionExplicit>
@@ -55,10 +55,6 @@
     <ApplicationIcon>Resources\game.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FMOD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\FMOD.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -92,6 +88,9 @@
     <Compile Include="CustomControls\gTrackBar.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="FMOD\fmod.vb" />
+    <Compile Include="FMOD\fmod_dsp.vb" />
+    <Compile Include="FMOD\fmod_errors.vb" />
     <Compile Include="GUI\MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -172,7 +171,7 @@
     <None Include="Resources\Background.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fmodex.dll">
+    <Content Include="fmod.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\MenuIcon.png" />
